@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+.content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
